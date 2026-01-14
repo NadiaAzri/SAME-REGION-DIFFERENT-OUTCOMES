@@ -127,7 +127,7 @@ All datasets are publicly available through the World Bank Open Data portal (dat
 
 ## Tableau Public Link
 
-[View Interactive Storyboard on Tableau Public](https://public.tableau.com/shared/H6FNNZW63?:display_count=n&:origin=viz_share_link)
+[View Interactive Storyboard on Tableau Public](https://public.tableau.com/shared/DPFSBTD4P?:display_count=n&:origin=viz_share_link)
 
 ## Technical Details
 
