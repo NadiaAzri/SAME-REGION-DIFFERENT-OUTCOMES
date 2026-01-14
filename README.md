@@ -1,4 +1,5 @@
 # Same Region, Different Outcomes: Understanding Wealth in the Middle East
+**Created by**: Nadia Azri and Ximena Lucio Calzada
 
 ## Overview
 
@@ -91,20 +92,14 @@ All data sourced from **World Bank Open Data** via two primary datasets:
   - **Economic Indicators**:
     - GDP (current US$) - `GDP_current_US`
     - Inflation (annual %) - `inflation_annual%`
-    - Population density
+    - Population
   
   - **Governance Indicators**:
     - Control of corruption estimate - `control_of_corruption_estimate`
     - Political stability estimate - `political_stability_estimate`
-    - Government effectiveness estimate - `goverment_effectiveness_estimate`
-    - Rule of law estimate - `rule_of_law_estimate`
-    - Regulatory quality estimate - `regulatory_quality_estimate`
   
   - **Development Indicators**:
     - Individuals using internet (%) - `individuals_using_internet%`
-    - Access to electricity (%)
-    - Life expectancy at birth
-    - Population statistics
 
 ### Data Processing
 - GDP per capita calculated from GDP (current US$) divided by population
@@ -132,17 +127,16 @@ All datasets are publicly available through the World Bank Open Data portal (dat
 
 ## Tableau Public Link
 
-[View Interactive Storyboard on Tableau Public](#)
-*Add your link here*
+[View Interactive Storyboard on Tableau Public](https://public.tableau.com/shared/H6FNNZW63?:display_count=n&:origin=viz_share_link)
 
 ## Technical Details
 
 - **Platform**: Tableau Public
 - **Format**: Story/Narrative Dashboard
 - **Chapters**: 4 interconnected story points
-- **Time Period**: Primarily 2015-2022
-- **Countries Analyzed**: 15+ Middle Eastern nations
-- **Design Theme**: Consistent brown/pink palette matching regional context
+- **Time Period**: Primarily 2000-2022
+- **Countries Analyzed**: 20+ Middle Eastern nations
+- **Design Theme**: Consistent brown palette matching regional context
 
 ## Use Cases
 
@@ -184,10 +178,10 @@ This storyboard serves multiple audiences:
 ## Repository Contents
 
 - `middle_east_wealth_storyboard.twbx` - Tableau workbook file
-- `data/` - Source data files
+- Source data files
   - `API_NY_GDP_TOTL_RT_ZS_DS2_en_csv_v2_129611.xlsx` - Natural resources rents data
   - `world_bank_development_indicators.xlsx` - Comprehensive development indicators
-- `images/` - Story screenshots and visualizations
+- Story screenshots and visualizations + PDF file of the dashboard
 - `README.md` - This file
 
 ## Story Structure
@@ -227,12 +221,15 @@ Story Flow:
 5. **Validation**: Cross-referenced findings with established economic research
 
 ## Limitations
-
+extensive missing data:
+  - **Yemen**: Insufficient economic and governance data across the study period
+  - **Turkey**: Incomplete data for key indicators
+  - Other countries with significant data gaps were also excluded to maintain analysis integrity
 - Data availability varies by country and year
 - Conflict zones may have incomplete or estimated data
 - Correlation doesn't imply causation (though literature supports causal relationships)
 - GDP per capita doesn't capture income distribution within countries
-- Some countries (e.g., Syria, Yemen) affected by ongoing conflicts skewing recent data
+- Some countries (e.g., Syria) affected by ongoing conflicts skewing recent data
 
 ## Future Enhancements
 
@@ -250,13 +247,6 @@ Contributions are welcome! Please consider:
 - Suggestions for additional visualizations
 - Updates with more recent data
 
-## Citation
-
-If you use this work in research or publications, please cite:
-```
-[Your Name]. (2026). Same Region, Different Outcomes: Understanding Wealth in the Middle East. 
-Tableau Public. [URL]
-```
 
 ## License
 
@@ -268,14 +258,5 @@ This project is created for educational and analytical purposes. Please attribut
 - World Bank Development Indicators database
 - Tableau Public community for visualization inspiration
 - Economic development researchers whose work informed this analysis
-
-## Contact
-
-For questions, suggestions, or collaboration opportunities:
-- GitHub Issues: [Your repo]/issues
-- Email: [Your email]
-- LinkedIn: [Your profile]
-
----
 
 **Note**: This analysis aims to provide objective insights into regional economic disparities and is not intended to make political statements about any nation or government. All data is from publicly available sources and represents the best available information at the time of creation.
