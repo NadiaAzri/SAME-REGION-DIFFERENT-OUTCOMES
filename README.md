@@ -35,7 +35,7 @@ The analysis reveals that corruption and political instability are the critical 
 
 **Key Visualizations:**
 - Diverging bar chart showing corruption control scores across the region
-- **Strong Control**: UAE, Qatar, Israel, KSA, Oman, Bahrain, Jordan, Kuwait
+- **Strong Control**: UAE, Qatar, KSA, Oman, Bahrain, Jordan, Kuwait
 - **Weak Control**: Egypt, Iran, Lebanon, Iraq, Libya, Syria
 - Scatter plot demonstrating positive correlation between political stability and GDP per capita
 
@@ -57,7 +57,7 @@ The final chapter examines how economic disparities manifest in citizens' daily 
 ### Economic Disparities
 1. **140:1 GDP Gap**: Qatar's GDP per capita is 140 times higher than Syria's
 2. **Gulf Dominance**: Qatar, UAE, and Kuwait lead the region in per capita wealth
-3. **Bottom Tier**: Syria, Yemen, and Gaza Strip have the lowest GDP per capita
+3. **Bottom Tier**: Syria, Lebanon have the lowest GDP per capita
 
 ### The Oil Paradox
 1. **Resource Wealth ≠ Prosperity**: Iraq and Libya have substantial oil reserves but low GDP per capita
